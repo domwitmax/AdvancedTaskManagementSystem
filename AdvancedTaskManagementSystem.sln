@@ -1,0 +1,114 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36930.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedTaskManagementSystemCQRS.WebApi", "AdvancedTaskManagementSystemCQRS.WebApi\AdvancedTaskManagementSystemCQRS.WebApi.csproj", "{7363607C-074E-464B-9EC4-29CB178DA91B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRS", "CQRS", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CRUD", "CRUD", "{57E3D93F-8131-494C-BA42-AF1686CDC81D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedTaskManagementSystemCRUD.WebApi", "AdvancedTaskManagementSystemCRUD.WebApi\AdvancedTaskManagementSystemCRUD.WebApi.csproj", "{41DE0954-53EC-40F3-966B-CA8C99D1CA15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedTaskManagementSystemCRUD.Infrastructure", "AdvancedTaskManagementSystemCRUD.Infrastructure\AdvancedTaskManagementSystemCRUD.Infrastructure.csproj", "{B618529A-73F0-426C-A517-44B696622735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedTaskManagementSystemCRUD.Application", "AdvancedTaskManagementSystemCRUD.Application\AdvancedTaskManagementSystemCRUD.Application.csproj", "{33F8BC1B-5724-4D85-B67F-1A7856E80336}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedTaskManagementSystemCRUD.Domain", "AdvancedTaskManagementSystemCRUD.Domain\AdvancedTaskManagementSystemCRUD.Domain.csproj", "{CF417058-3D87-440D-A739-37B1495FCB2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedTaskManagementSystemCQRS.Application", "AdvancedTaskManagementSystemCQRS.Application\AdvancedTaskManagementSystemCQRS.Application.csproj", "{804E365D-1BEB-4FB7-9DE0-16948AACBA0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedTaskManagementSystemCQRS.Domain", "AdvancedTaskManagementSystemCQRS.Domain\AdvancedTaskManagementSystemCQRS.Domain.csproj", "{B76762FF-C825-4A93-B1CD-0EAD3CE4D0AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedTaskManagementSystemCQRS.Infrastructure", "AdvancedTaskManagementSystemCQRS.Infrastructure\AdvancedTaskManagementSystemCQRS.Infrastructure.csproj", "{741FF122-A2B9-4357-B9C3-DFB4C9FA461F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedTaskManagementSystemCRUD.Tests", "AdvancedTaskManagementSystemCRUD.Tests\AdvancedTaskManagementSystemCRUD.Tests.csproj", "{CB556931-4F35-467A-BE7B-76E658D7A770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedTaskManagementSystemCQRS.Tests", "AdvancedTaskManagementSystemCQRS.Tests\AdvancedTaskManagementSystemCQRS.Tests.csproj", "{855888C7-E1E2-40A6-BF4D-A26665B114A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedTaskManagementSystemCRUD.IntegrationTests", "AdvancedTaskManagementSystemCRUD.IntegrationTests\AdvancedTaskManagementSystemCRUD.IntegrationTests.csproj", "{C80172A2-8BED-47C9-B9DA-615E8193584C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedTaskManagementSystemCQRS.IntegrationTests", "AdvancedTaskManagementSystemCQRS.IntegrationTests\AdvancedTaskManagementSystemCQRS.IntegrationTests.csproj", "{50E67A69-C114-4F91-A05C-27BC95B28CB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementy rozwiązania", "Elementy rozwiązania", "{8FB176BD-0036-D269-15EA-F86E90622887}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7363607C-074E-464B-9EC4-29CB178DA91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7363607C-074E-464B-9EC4-29CB178DA91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7363607C-074E-464B-9EC4-29CB178DA91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7363607C-074E-464B-9EC4-29CB178DA91B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41DE0954-53EC-40F3-966B-CA8C99D1CA15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41DE0954-53EC-40F3-966B-CA8C99D1CA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41DE0954-53EC-40F3-966B-CA8C99D1CA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41DE0954-53EC-40F3-966B-CA8C99D1CA15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B618529A-73F0-426C-A517-44B696622735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B618529A-73F0-426C-A517-44B696622735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B618529A-73F0-426C-A517-44B696622735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B618529A-73F0-426C-A517-44B696622735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33F8BC1B-5724-4D85-B67F-1A7856E80336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33F8BC1B-5724-4D85-B67F-1A7856E80336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33F8BC1B-5724-4D85-B67F-1A7856E80336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33F8BC1B-5724-4D85-B67F-1A7856E80336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF417058-3D87-440D-A739-37B1495FCB2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF417058-3D87-440D-A739-37B1495FCB2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF417058-3D87-440D-A739-37B1495FCB2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF417058-3D87-440D-A739-37B1495FCB2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{804E365D-1BEB-4FB7-9DE0-16948AACBA0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804E365D-1BEB-4FB7-9DE0-16948AACBA0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804E365D-1BEB-4FB7-9DE0-16948AACBA0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804E365D-1BEB-4FB7-9DE0-16948AACBA0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B76762FF-C825-4A93-B1CD-0EAD3CE4D0AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B76762FF-C825-4A93-B1CD-0EAD3CE4D0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B76762FF-C825-4A93-B1CD-0EAD3CE4D0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B76762FF-C825-4A93-B1CD-0EAD3CE4D0AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{741FF122-A2B9-4357-B9C3-DFB4C9FA461F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{741FF122-A2B9-4357-B9C3-DFB4C9FA461F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{741FF122-A2B9-4357-B9C3-DFB4C9FA461F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{741FF122-A2B9-4357-B9C3-DFB4C9FA461F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB556931-4F35-467A-BE7B-76E658D7A770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB556931-4F35-467A-BE7B-76E658D7A770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB556931-4F35-467A-BE7B-76E658D7A770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB556931-4F35-467A-BE7B-76E658D7A770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{855888C7-E1E2-40A6-BF4D-A26665B114A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{855888C7-E1E2-40A6-BF4D-A26665B114A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{855888C7-E1E2-40A6-BF4D-A26665B114A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{855888C7-E1E2-40A6-BF4D-A26665B114A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C80172A2-8BED-47C9-B9DA-615E8193584C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C80172A2-8BED-47C9-B9DA-615E8193584C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C80172A2-8BED-47C9-B9DA-615E8193584C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C80172A2-8BED-47C9-B9DA-615E8193584C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E67A69-C114-4F91-A05C-27BC95B28CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E67A69-C114-4F91-A05C-27BC95B28CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E67A69-C114-4F91-A05C-27BC95B28CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E67A69-C114-4F91-A05C-27BC95B28CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7363607C-074E-464B-9EC4-29CB178DA91B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{41DE0954-53EC-40F3-966B-CA8C99D1CA15} = {57E3D93F-8131-494C-BA42-AF1686CDC81D}
+		{B618529A-73F0-426C-A517-44B696622735} = {57E3D93F-8131-494C-BA42-AF1686CDC81D}
+		{33F8BC1B-5724-4D85-B67F-1A7856E80336} = {57E3D93F-8131-494C-BA42-AF1686CDC81D}
+		{CF417058-3D87-440D-A739-37B1495FCB2C} = {57E3D93F-8131-494C-BA42-AF1686CDC81D}
+		{804E365D-1BEB-4FB7-9DE0-16948AACBA0E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B76762FF-C825-4A93-B1CD-0EAD3CE4D0AD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{741FF122-A2B9-4357-B9C3-DFB4C9FA461F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{CB556931-4F35-467A-BE7B-76E658D7A770} = {57E3D93F-8131-494C-BA42-AF1686CDC81D}
+		{855888C7-E1E2-40A6-BF4D-A26665B114A6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{C80172A2-8BED-47C9-B9DA-615E8193584C} = {57E3D93F-8131-494C-BA42-AF1686CDC81D}
+		{50E67A69-C114-4F91-A05C-27BC95B28CB9} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAB773B3-3A2F-4F08-A680-9D141C48D961}
+	EndGlobalSection
+EndGlobal

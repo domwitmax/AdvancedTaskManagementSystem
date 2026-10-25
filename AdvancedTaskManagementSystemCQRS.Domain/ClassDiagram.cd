@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AdvancedTaskManagementSystemCQRS.Domain.Entities.AccountEntity">
+    <Position X="8" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAIQACAACAAIECAAQAAAAAAQAAAgACAQAAAAAAA=</HashCode>
+      <FileName>Entities\AccountEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdvancedTaskManagementSystemCQRS.Domain.Entities.ChangeDetailEntity" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Entities\ChangeDetailEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdvancedTaskManagementSystemCQRS.Domain.Entities.ChangesHistoryEntity" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAgAAAAQAEAQAAAAAGA=</HashCode>
+      <FileName>Entities\ChangesHistoryEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdvancedTaskManagementSystemCQRS.Domain.Entities.CommentEntity" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAAAAAACAAAAAAAAgAAAAAAEAAAAAAAAE=</HashCode>
+      <FileName>Entities\CommentEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdvancedTaskManagementSystemCQRS.Domain.Entities.GroupEntity" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\GroupEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdvancedTaskManagementSystemCQRS.Domain.Entities.LabelEntity" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAAAAQAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\LabelEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdvancedTaskManagementSystemCQRS.Domain.Entities.PriorityEntity" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\PriorityEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdvancedTaskManagementSystemCQRS.Domain.Entities.ProjectEntity" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAMAAAgAAAAAAAAAAQgAABAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Entities\ProjectEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdvancedTaskManagementSystemCQRS.Domain.Entities.ProjectMemberEntity" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACABAAAAAAAAAAACAAABAAAAAAAQAAAAAAAAEA=</HashCode>
+      <FileName>Entities\ProjectMemberEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdvancedTaskManagementSystemCQRS.Domain.Entities.ProjectStatusEntity" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\ProjectStatusEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdvancedTaskManagementSystemCQRS.Domain.Entities.RoleEntity" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\RoleEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdvancedTaskManagementSystemCQRS.Domain.Entities.StatusEntity" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAgBQAAAAAAAAA=</HashCode>
+      <FileName>Entities\StatusEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdvancedTaskManagementSystemCQRS.Domain.Entities.TaskAttachmentEntity" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAAABAAAAAAAAAAAgAAAAAAEAYQABAAAA=</HashCode>
+      <FileName>Entities\TaskAttachmentEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdvancedTaskManagementSystemCQRS.Domain.Entities.TaskEntity">
+    <Position X="9.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAMAAAgCGEEACAACAAEBAAAEAAgEQABAAAAIAE=</HashCode>
+      <FileName>Entities\TaskEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdvancedTaskManagementSystemCQRS.Domain.Entities.TaskLabelEntity" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAEAAAAAAAAAAAgAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Entities\TaskLabelEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AdvancedTaskManagementSystemCQRS.Domain.Entities.TypeEntity" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\TypeEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

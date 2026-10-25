@@ -1,0 +1,14 @@
+@AdvancedTaskManagementSystemCRUD.WebApi_HostAddress = http://localhost:7076
+
+//GET {{AdvancedTaskManagementSystemCRUD.WebApi_HostAddress}}/weatherforecast/
+//Accept: application/json
+
+POST {{AdvancedTaskManagementSystemCRUD.WebApi_HostAddress}}/api/Account/Login
+Content-Type: application/json
+
+{
+  "username": "test",
+  "password": "test"
+}
+
+###
